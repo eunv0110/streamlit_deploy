@@ -11,7 +11,7 @@ from langchain import hub
 # API KEY 정보로드
 load_dotenv()
 
-st.title("나의 챗봇")
+st.title("나의 미니미 챗봇 💬")
 # 대화 기록을 저장할 용도
 if "messages" not in st.session_state:
     # 대화 기록을 저장할 리스트를 초기화합니다.
